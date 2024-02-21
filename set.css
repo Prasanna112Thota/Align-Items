@@ -1,0 +1,79 @@
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2017/01/31/15/37/evergreen-2025158_1280.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% ;
+    text-align: center;
+    justify-content:flex-start;
+    
+    
+}
+#main-container{
+    display: flex;
+    justify-content:left;
+    align-items:flex-end;
+    
+}
+#roof1{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid #dc7703 ;
+    position:fixed;
+    left:0px;
+    margin-top:270px;
+   
+    
+}
+#roof2{
+    width: 0;
+    height: 0;
+    border-left: 190px solid transparent;
+    border-right: 180px solid transparent;
+    border-bottom: 190px solid #dc7703 ;
+    position:fixed;
+    left:200px;
+    
+    margin-top:165px;
+    
+   
+}
+#wall1{
+    width :160px;
+    height: 150px;
+    background-color: white;
+     background-attachment: fixed;
+   position:fixed;
+   bottom: 0px;
+   left: 10px;
+   border: 2px solid #871313;
+    
+}
+#wall2{
+    width :190px;
+    height: 215px;
+    background-color: white;
+    margin-left: 290px;
+    background-attachment: fixed;
+   position:fixed;
+   bottom: 0px;
+   border: 2px solid #871313;
+   
+}
+
+
+#kitten-image{
+    width: 150px;
+    height: 150px;
+    background-attachment: fixed;
+
+    
+
+}
+#puppy-image{
+    width: 200px;
+    height: 200px;
+    background-attachment: fixed;
+
+}
